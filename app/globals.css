@@ -14,7 +14,7 @@ body {
 }
 
 .blue-gradient {
-  background: linear-gradient(92deg, #3926aa 99.87%, #002aff 9.18%);
+  background: linear-gradient(92deg, #26157d 99.87%, #002aff 9.18%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

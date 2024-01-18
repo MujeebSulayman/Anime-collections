@@ -11,12 +11,12 @@ function Hero() {
 					height={96}
 					className='object-contain'
 				/>
-				<h1 className='sm:text-6xl text-5xl text-white lg:max-w-lg font-bold leading-[120%]'>
+				<h1 className='sm:text-7xl text-5xl text-white lg:max-w-lg font-bold leading-[120%] sm:leading-[120%]'>
 					Explore The <span className='blue-gradient'>Diverse Realms</span> of
 					Anime X
 				</h1>
 			</div>
-			<div className='lg:flex-1 relative w-full h-[50vh] justify-center'>
+			<div className='lg:flex-1 relative sm:w-[60vh] sm:h-[60vh] w-[40vh] h-[40vh] sm:top-20 top-10 justify-center'>
 				<Image
 					src='/anime.png'
 					alt='anime'
