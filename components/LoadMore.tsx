@@ -13,7 +13,7 @@ export type AnimeCard = JSX.Element;
 
 function LoadMore() {
 	const { ref, inView } = useInView();
-	const [data, setDate] = useState<AnimeCard[]>([]);
+	const [data, setDate] = useState<AnimeCard[]>([]); 
 
 	useEffect(() => {
 		if (inView) {
